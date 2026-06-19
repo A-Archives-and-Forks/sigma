@@ -1402,3 +1402,12 @@ div#u-adult-warning > .error-block {
 #lock-timer {
 	font-variant-numeric: tabular-nums;
 }
+
+/*
+ * Disable the "save draft" feature, due to security and usability issues.
+ * See https://scp-sandbox-3.wikidot.com/no-drafts
+ */
+#edit-save-draft-button,
+.button-cancel-and-leave-draft {
+    display: none;
+}
